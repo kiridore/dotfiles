@@ -33,4 +33,3 @@ exit
 fi
 
 eval "$(starship init bash)"
-#

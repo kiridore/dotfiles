@@ -1,0 +1,7 @@
+[safe]
+	directory = /opt/flutter
+[user]
+	name = kiridore
+	email = ashenone.jiang@gmail.com
+[core]
+	editor = nvim
