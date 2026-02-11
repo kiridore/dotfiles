@@ -107,15 +107,15 @@ input {
 }
 
 output "DP-5" {
-    // IC inc GX278Q
-    mode "2560x1440@144.002"
-    position x=0 y=0
+	// XiaoMi
+    mode "2560x1440@144.000"
+    position x=2560 y=0
 }
 
 output "HDMI-A-2" {
-	// XiaoMi
-	mode "2560x1440@144.000"
-	position x=2560 y=0
+    // IC inc GX278Q
+	mode "2560x1440@143.981"
+    position x=0 y=0
 }
 
 output "DP-6" {
@@ -131,7 +131,7 @@ output "DP-6" {
 // https://yalter.github.io/niri/Configuration:-Layout
 layout {
     // Set gaps around windows in logical pixels.
-    gaps 16
+    gaps 12
 
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
