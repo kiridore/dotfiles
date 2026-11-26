@@ -4,3 +4,9 @@
 .config/kwalletd/
 *.log
 *.bak-*
+
+# KDE 的 window-decorations-gtk-module 每次登录生成
+.config/gtk-3.0/window_decorations.css
+.config/gtk-3.0/assets/
+.config/gtk-4.0/window_decorations.css
+.config/gtk-4.0/assets/
