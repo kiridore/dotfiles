@@ -33,3 +33,6 @@ exit
 fi
 
 eval "$(starship init bash)"
+
+# Pi
+export PATH="/home/dore/.pi/agent/bin:$PATH"
