@@ -21,16 +21,10 @@ export SDL_IM_MODULE=fcitx
 export GLFW_IM_MODULE=ibus
 
 export XDG_CONFIG_HOME=$HOME/.config
-. "$HOME/.cargo/env"
 
 
 # flutter
 # export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
-
-if [ -z "${DISPLAY}" ] && [[ $(tty) = /dev/tty1 ]]; then
-exec niri-session
-exit
-fi
 
 eval "$(starship init bash)"
 
