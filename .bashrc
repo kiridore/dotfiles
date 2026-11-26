@@ -26,7 +26,5 @@ export XDG_CONFIG_HOME=$HOME/.config
 # flutter
 # export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 
-eval "$(starship init bash)"
-
 # Pi
 export PATH="/home/dore/.pi/agent/bin:$PATH"
